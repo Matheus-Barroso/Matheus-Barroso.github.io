@@ -2,12 +2,12 @@ var idGlobal=""
 var idI=1
 
 var link = document.createElement("link");
-link.href="css/reset.css";
+link.href="reset.css";
 link.rel="stylesheet";
 document.head.appendChild(link);
 
 var link = document.createElement("link");
-link.href="css/style.css";
+link.href="style.css";
 link.rel="stylesheet";
 document.head.appendChild(link);
 
