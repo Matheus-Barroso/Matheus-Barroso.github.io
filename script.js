@@ -66,6 +66,5 @@ var idI = 1
       if (div2.childNodes.length>0){
       var c = div2.childNodes[Math.floor(Math.random() * div2.childNodes.length)];
       div2.removeChild(c);
-      console.log("jmeu deus")
       }
    }
