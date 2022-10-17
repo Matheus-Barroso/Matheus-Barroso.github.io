@@ -64,7 +64,7 @@ var idI = 1
 
    function TirarCirculo(){
       if (div2.childNodes.length>0){
-      var c = div2.childNodes[Math.floor(Math.random() * div2.childNodes.length];
+      var c = div2.childNodes[Math.floor(Math.random() * div2.childNodes.length)];
       div2.removeChild(c);
       console.log("jmeu deus")
       }
